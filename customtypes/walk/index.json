@@ -1,0 +1,67 @@
+{
+	"id": "walk",
+	"label": "Walk",
+	"format": "custom",
+	"repeatable": true,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"config": {
+					"label": "UID"
+				},
+				"type": "UID"
+			},
+			"title": {
+				"type": "Text",
+				"config": {
+					"label": "Title",
+					"placeholder": ""
+				}
+			},
+			"price": {
+				"type": "Number",
+				"config": {
+					"label": "Price (GBP)",
+					"placeholder": ""
+				}
+			},
+			"historical_characters": {
+				"type": "Group",
+				"config": {
+					"label": "Historical Characters",
+					"fields": {}
+				}
+			},
+			"duration": {
+				"type": "Number",
+				"config": {
+					"label": "Duration (hours)",
+					"placeholder": ""
+				}
+			},
+			"locations": {
+				"type": "Group",
+				"config": {
+					"label": "Locations",
+					"fields": {}
+				}
+			},
+			"image": {
+				"type": "Image",
+				"config": {
+					"label": "Image",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"slices": {
+				"type": "Slices",
+				"fieldset": "Slice Zone",
+				"config": {
+					"choices": {}
+				}
+			}
+		}
+	}
+}

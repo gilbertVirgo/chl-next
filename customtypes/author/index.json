@@ -1,0 +1,38 @@
+{
+	"id": "author",
+	"label": "Author",
+	"repeatable": true,
+	"json": {
+		"Main": {
+			"name": {
+				"type": "Text",
+				"config": {
+					"label": "Name",
+					"placeholder": "e.g. John Doe"
+				}
+			},
+			"description": {
+				"type": "StructuredText",
+				"config": {
+					"multi": "paragraph,strong,em",
+					"allowTargetBlank": true,
+					"label": "Description",
+					"placeholder": "Write a few sentences about the author..."
+				}
+			},
+			"image": {
+				"type": "Image",
+				"config": {
+					"constraint": {
+						"width": 400,
+						"height": 400
+					},
+					"thumbnails": [],
+					"label": "Image"
+				}
+			}
+		}
+	},
+	"status": true,
+	"format": "custom"
+}

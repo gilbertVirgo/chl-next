@@ -1,0 +1,44 @@
+{
+  "id": "card_columns",
+  "type": "SharedSlice",
+  "name": "Lattice",
+  "description": "CardColumns",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "card": {
+          "type": "Link",
+          "config": {
+            "label": "Card",
+            "select": "document"
+          }
+        }
+      }
+    },
+    {
+      "id": "walkingTourCards",
+      "name": "WalkingTourCards",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "card": {
+          "type": "Link",
+          "config": {
+            "label": "Card",
+            "select": "document"
+          }
+        }
+      }
+    }
+  ]
+}

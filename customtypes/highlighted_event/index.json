@@ -1,0 +1,34 @@
+{
+	"id": "highlighted_event",
+	"label": "Highlighted Event",
+	"repeatable": false,
+	"json": {
+		"Main": {
+			"event": {
+				"type": "Link",
+				"config": {
+					"select": "document",
+					"customtypes": ["event"],
+					"label": "Event"
+				}
+			},
+			"visibility": {
+				"type": "Boolean",
+				"config": {
+					"placeholder_false": "Hidden",
+					"placeholder_true": "Visible",
+					"default_value": true,
+					"label": "Visibility"
+				}
+			},
+			"finish_timestamp": {
+				"type": "Timestamp",
+				"config": {
+					"label": "Finish Timestamp"
+				}
+			}
+		}
+	},
+	"status": true,
+	"format": "custom"
+}

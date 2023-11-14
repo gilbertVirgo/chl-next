@@ -1,0 +1,61 @@
+{
+	"id": "podcast",
+	"label": "Podcast",
+	"repeatable": true,
+	"json": {
+		"Main": {
+			"title": {
+				"type": "Text",
+				"config": {
+					"label": "Title",
+					"placeholder": "e.g. Aaron Edwards Interview"
+				}
+			},
+			"image": {
+				"type": "Image",
+				"config": {
+					"constraint": {
+						"width": 640,
+						"height": 360
+					},
+					"thumbnails": [],
+					"label": "Image"
+				}
+			},
+			"description": {
+				"type": "StructuredText",
+				"config": {
+					"multi": "paragraph,strong,em,hyperlink",
+					"allowTargetBlank": true,
+					"label": "Description",
+					"placeholder": "Write a couple of sentences about the episode or the interviewee."
+				}
+			},
+			"youtube_video": {
+				"type": "Link",
+				"config": {
+					"label": "Youtube Video URL",
+					"placeholder": "e.g. https://youtu.be/ABCDE_123",
+					"select": null
+				}
+			},
+			"audio_url": {
+				"type": "Link",
+				"config": {
+					"label": "Audio URL",
+					"placeholder": "Attach the PUBLIC audio URL from Dropbox/Google Drive",
+					"select": null
+				}
+			},
+			"original_date_published": {
+				"type": "Date",
+				"config": {
+					"label": "Original Date Published",
+					"placeholder": "(This is US style - MM-DD-YYYY)"
+				}
+			}
+		}
+	},
+	"status": true,
+	"format": "custom"
+}

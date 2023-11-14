@@ -1,0 +1,61 @@
+{
+	"id": "article",
+	"label": "Article",
+	"repeatable": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"type": "UID",
+				"config": {
+					"label": "Slug",
+					"placeholder": "e.g. why-you-should-read-the-bible"
+				}
+			},
+			"title": {
+				"type": "Text",
+				"config": {
+					"label": "Title",
+					"placeholder": "e.g. Why You Should Read The Bible"
+				}
+			},
+			"image": {
+				"type": "Image",
+				"config": {
+					"constraint": {
+						"width": 1280,
+						"height": 720
+					},
+					"thumbnails": [],
+					"label": "Image"
+				}
+			},
+			"author": {
+				"type": "Link",
+				"config": {
+					"select": "document",
+					"customtypes": ["author"],
+					"label": "Author",
+					"placeholder": "Select an author..."
+				}
+			},
+			"description": {
+				"type": "StructuredText",
+				"config": {
+					"multi": "paragraph,strong,em",
+					"label": "description",
+					"placeholder": "e.g. The first sentence of the article"
+				}
+			},
+			"content": {
+				"type": "StructuredText",
+				"config": {
+					"multi": "paragraph,heading2,heading3,strong,em,hyperlink,list-item,o-list-item",
+					"allowTargetBlank": true,
+					"label": "Content"
+				}
+			}
+		}
+	},
+	"status": true,
+	"format": "custom"
+}

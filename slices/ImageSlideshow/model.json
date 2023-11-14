@@ -1,0 +1,30 @@
+{
+  "id": "image_slideshow",
+  "type": "SharedSlice",
+  "name": "ImageSlideshow",
+  "description": "ImageSlideshow",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 960,
+              "height": 540
+            },
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}
